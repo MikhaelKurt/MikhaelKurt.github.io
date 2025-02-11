@@ -1,0 +1,59 @@
+/* Mengatur gaya umum untuk halaman */
+body {
+    background-color: #e0aaaa; /* Warna latar belakang pink muda */
+    color: #7a2a2a; /* Warna teks merah gelap */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Mengatur gaya untuk judul */
+h1 {
+    font-size: 3em;
+    color: #dd2f2fe6; /* Warna teks merah terang */
+    margin-bottom: 20px;
+}
+
+/* Mengatur gaya untuk tombol */
+button {
+    background-color: #ff4d4d; /* Warna latar belakang tombol merah terang */
+    color: white; /* Warna teks putih */
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1); /* Efek zoom saat tombol dihover */
+}
+
+/* Mengatur gaya untuk teks acak */
+#randomText {
+    font-size: 1.5em;
+    color: #7a2a2a; /* Warna teks merah gelap */
+    margin-top: 20px;
+}
+
+/* Mengatur gaya untuk gambar */
+#valentineGif {
+    width: 300px; /* Sesuaikan ukuran GIF agar tidak memenuhi layar */
+    height: auto; /* Pertahankan rasio aspek GIF */
+    display: block; /* Pastikan gambar ditampilkan sebagai blok */
+    margin: 20px auto; /* Pusatkan gambar secara horizontal dengan margin */
+    border-radius: 20px; /* Membuat gambar berbentuk lingkaran */
+}
+
+/* Mengatur gaya untuk gambar start */
+#startGif {
+    width: 200px; /* Sesuaikan ukuran GIF agar tidak memenuhi layar */
+    height: auto; /* Pertahankan rasio aspek GIF */
+    display: block; /* Pastikan gambar ditampilkan sebagai blok */
+    margin: 20px auto; /* Pusatkan gambar secara horizontal dengan margin */
+    border-radius: 20px; /* Membuat gambar berbentuk lingkaran */
+}
